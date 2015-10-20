@@ -1,8 +1,8 @@
 jQuery(window).load(function() {
 	 jQuery('#particles').particleground({
-		dotColor: '#919191',
-		lineColor: '#919191',
-		lineWidth: '0.51',
-		particleRadius: '3'
+		dotColor: '#fff',
+		lineColor: '#fff',
+		lineWidth: '0.31',
+		particleRadius: '2'
 	  });
 });
