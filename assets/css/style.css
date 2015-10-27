@@ -236,6 +236,24 @@ canvas{
 	width: 100%;
 	z-index: -1;
 }
+
+
+.home-bg2 {
+	animation: 13s ease 5s normal none infinite back_animation;
+	background: url('../img/backgrounds/bg2.png') no-repeat center center;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+
 #particles
 {	
 	height: 100%;
@@ -373,6 +391,7 @@ canvas{
     border-radius: 0 !important;
     height: 3.5em;
     outline: medium none;
+    background-color: #000;
 }
 
 
@@ -403,7 +422,7 @@ canvas{
 
 .notify-button:hover {
 	background: none repeat scroll 0 0 #000;
-	border: 1px solid #323232;
+	border: 0px solid #323232;
 	color: #fff;
 } 
 
@@ -1051,8 +1070,8 @@ a {
 }
 
 .md-content {
-	color: #212639;
-	background: #ffffff;
+	color: #3b3b3b;
+	background: #141414;
 	position: relative;
 	margin: 0 auto;
 	padding:35px;
@@ -1061,7 +1080,7 @@ a {
 .md-content h3 {
 	margin: 0;
 	text-align: center;
-	color: #1bce7c;
+	color: #272727;
     font-size: 0.8em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
