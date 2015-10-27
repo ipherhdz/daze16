@@ -44,6 +44,13 @@ body {
 
 }
 
+.hh{
+	color: #fff;
+	text-transform: lowercase !important;
+	font-size: 2.3em !important;
+	font-weight: 300 !important;
+}
+
 a:hover,a:active {
     outline: 0;
 }
@@ -141,7 +148,7 @@ html{
 /****************************/
 
 .preloader {
-	background: none repeat scroll 0 0 #101012;
+	background: none repeat scroll 0 0 #fff;
 	position: fixed;
 	z-index: 110;
 	height: 100%;
@@ -153,13 +160,13 @@ html{
 	background: url("../img/loading.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	float: none;
 	height: 104px;
-	left: calc(50% - 100px);
+	
 	margin: 0 auto;
 	opacity: 1;
 	overflow-y: hidden;
 	position: absolute;
 	text-align: center;
-	top: calc(50% - 52px);
+
 	width: 100%;
 	z-index: 111;
 }
@@ -216,9 +223,9 @@ canvas{
 }
 
 .home-bg {
-	animation: 60s ease 0s normal none infinite back_animation;
-	background: url('../img/backgrounds/bg1.jpg') no-repeat center center;
-	-webkit-background-size: cover;
+	animation: 13s ease 0s normal none infinite back_animation;
+	background: url('../img/backgrounds/bg1.png') no-repeat center center;
+	-webkit-background-size: cover; 
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
@@ -295,7 +302,7 @@ canvas{
 }
 
 #title_hr {
-	border: 1px solid #fb1b35;
+	border: 1px solid #fff;
 	margin: 1.8em auto 2.9em;
 	width: 50px;
 }
@@ -339,12 +346,12 @@ canvas{
 .form-notify h2
 {
 	font-size:1.2em;
-	font-weight:700;
+	font-weight:300;
 	display:block;	
 	letter-spacing:.5em;
 	margin-bottom: 2%;
     text-transform: uppercase;
-	color:#fb1b35;
+	color:#9d9d9d;
 }
 
 .counter-logo {
@@ -371,7 +378,7 @@ canvas{
 
 
 .notify-button {
-	background: none repeat scroll 0 0 #fb1b35;
+	background: none repeat scroll 0 0 #000;
     color: #fff;
 	height:3.5em;
 	border: 0 none;
@@ -387,7 +394,7 @@ canvas{
 }
 
 #notifyMe button:focus{
-	background: none repeat scroll 0 0 #fb1b35;
+	background: none repeat scroll 0 0 #000;
     color: #fff;
 }
 #notifyMe #message {
@@ -395,8 +402,8 @@ canvas{
 }
 
 .notify-button:hover {
-	background: none repeat scroll 0 0 #fb1b35;
-	border: 1px solid #fb1b35;
+	background: none repeat scroll 0 0 #000;
+	border: 1px solid #323232;
 	color: #fff;
 } 
 
@@ -739,7 +746,7 @@ canvas{
 /*****************************************************/
 
 .swag {
-    background: none repeat scroll 0 0 #fff;
+    background: none repeat scroll 0 0 #2d2d2d;
     color: #000;
 }
 
@@ -992,7 +999,7 @@ a {
 
 .tc {
 	margin-bottom: 6%;
-	color: #000;
+	color: #1d1d1d;
 	font-size: 14px;
 	letter-spacing: 1px;
 }
@@ -1098,7 +1105,7 @@ a {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
-	color: #fb1b35;
+	color: #000;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
@@ -1108,7 +1115,7 @@ a {
 }
 
 .md-trigger:hover {
-	color: #fb1b35;
+	color: #fff;
 }
 
 .md-effect-10.md-modal {
@@ -1319,7 +1326,7 @@ footer a {
 }
 
 footer {
-	background-color: #000;
+	background-color: #1d1d1d;
     padding: 25px 0;
 }
 
