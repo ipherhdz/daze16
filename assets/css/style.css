@@ -36,7 +36,7 @@ strong{
  
 body {
 	color: #7a7a7a;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	font-size: 14px;
 	font-style: normal;
 	line-height:1.5;
@@ -568,7 +568,7 @@ canvas{
 
 .navbar-default .navbar-brand {
 	color: #fff;
-	font-family: raleway;
+	font-family: 'Comfortaa', cursive;
 	font-size: 1em;
 	font-weight: 500;
 	letter-spacing: 0.2em;
@@ -577,7 +577,7 @@ canvas{
 
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
-	font-family: raleway;
+	font-family: 'Comfortaa', cursive;
 	font-size: 1em;
 	font-weight: 500;
 	letter-spacing: 0.2em;
@@ -745,7 +745,7 @@ canvas{
 
 .swag h1 {
 	color: #fff;
-	font-family: 'Raleway';
+	font-family: 'Comfortaa', cursive;
 	font-size: 50px;
 }
 
