@@ -114,6 +114,7 @@ p {
 	color: #dfdfdf;
     font-size: 0.8em;
     line-height: 1.6em;
+    font-weight: 300 !important;
 }
 html{
 	overflow:hidden;
@@ -371,6 +372,22 @@ canvas{
     text-transform: uppercase;
 	color:#9d9d9d;
 }
+
+
+.form-notify h3
+{
+	font-size:0.35em;
+	font-weight:300;
+	display:block;	
+	letter-spacing:1.3em;
+	margin-bottom: 2%;
+    text-transform: uppercase;
+	color:#9d9d9d;
+	text-align: justify;
+	
+}
+
+
 
 .counter-logo {
 	margin-bottom: 2%;
@@ -862,6 +879,10 @@ canvas{
 	color: #fff;
 	width: 100%;
 	display: block;
+}
+
+.perfilg img{
+	margin-left: 42%;
 }
 
 .nl-form .nl-submit {
