@@ -111,8 +111,8 @@ h6 {
 }
 
 p {
-	color: #5f6061;
-    font-size: 1.1em;
+	color: #dfdfdf;
+    font-size: 0.8em;
     line-height: 1.6em;
 }
 html{
@@ -865,7 +865,7 @@ canvas{
 }
 
 .nl-form .nl-submit {
-	 background: none repeat scroll 0 0 #fb1b35;
+	 background: none repeat scroll 0 0 #010002;
     color: #fff;
     cursor: pointer;
     font-size: 0.4em;
@@ -1070,7 +1070,7 @@ a {
 }
 
 .md-content {
-	color: #3b3b3b;
+	color: #747474;
 	background: #141414;
 	position: relative;
 	margin: 0 auto;
@@ -1080,7 +1080,7 @@ a {
 .md-content h3 {
 	margin: 0;
 	text-align: center;
-	color: #272727;
+	color: #414141;
     font-size: 0.8em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
