@@ -352,6 +352,11 @@ canvas{
 	clear: both;
 	text-align: center;
 	float: none;
+
+}
+
+.align-center h2{
+	padding-bottom: 25px !important;
 }
 
 
