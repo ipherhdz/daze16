@@ -1248,7 +1248,7 @@ a {
     white-space: nowrap;
 }
 .success #message {
-    color: #1bce7c;
+    color: #BBBBBB;
     font-size: 1.1em;
     margin-top: 10px;
 	text-transform:capitalize;
