@@ -375,13 +375,13 @@ canvas{
 	letter-spacing:.5em;
 	margin-bottom: 2%;
     text-transform: uppercase;
-	color:#9d9d9d;
+	color:#F4F4F4;
 }
 
 
 .form-notify h3
 {
-	font-size:0.45em;
+	font-size:0.44em;
 	font-weight:300;
 	display:block;	
 	letter-spacing:1.3em;
@@ -389,36 +389,39 @@ canvas{
     text-transform: uppercase;
 	color:#9d9d9d;
 	text-align: justify;
+	margin: 40px;
 	
 }
 
 
 .somos{
-	
+	color: #EDEDED;
 }
 
 .mexico{
-
+	color: #9C9C9C;
 }
 
 .busca{
-
+	color: #DFDFDF;
 }
 
 .creativos{
-
+	color: #BBBBBB;
 }
 
 .visual{
-
+	color: #DFDFDF;
 }
 
 .puebla{
-
+	color: #F9F9F9;
 
 }
 
 .quieres{
+	color: #DFDFDF;
+	font-size: 1.2em;
 
 }
 
@@ -441,6 +444,9 @@ canvas{
 	border: 0 none;
     border-radius: 0 !important;
     height: 3.5em;
+
+    font-family: 'Raleway', sans-serif;
+    color:#F9F9F9;
     
     background-color: #000;
 }
