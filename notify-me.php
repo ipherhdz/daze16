@@ -13,10 +13,10 @@ variables with your actual MailChimp API Key and List ID below
 $STORE_MODE = "mailchimp";
 
 // Your MailChimp API Key
-$API_KEY =  "cb6a20c0676b26b78e8f18f047b619a2-us8";
+$API_KEY =  "5ed620be9744e9c27d8cacbef534fb9b-us12";
 
 // Your MailChimp List ID
-$LIST_ID =  "6ffa2b9330";
+$LIST_ID =  "3791b489dc";
 
 
 

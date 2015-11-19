@@ -11,11 +11,11 @@
         // Default options.
         var settings = $.extend({
         	// Error and success message strings
-            msgError404: "Service is not available at the moment. Please check your internet connection or try again later.",
-			msgError503: "Oops. Looks like something went wrong. Please try again later.",
-			msgErrorValidation: "This email address looks fake or invalid. Please enter a real email address.",
-			msgErrorFormat: "Your e-mail address is incorrect.",
-			msgSuccess: "Congrats! You are in list."
+            msgError404: "Tenemos un problema con el sistema, intenta más tarde.",
+			msgError503: "Algo salió mal, intenta de nuevo.",
+			msgErrorValidation: "Error estas ingresando un correo no valido",
+			msgErrorFormat: "No es un formato de correo valido.",
+			msgSuccess: "Gracias por registrarte, por favor verifica tu cuenta en tu correo."
 		}, options );
 
     

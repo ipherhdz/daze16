@@ -352,6 +352,11 @@ canvas{
 	clear: both;
 	text-align: center;
 	float: none;
+
+}
+
+.align-center h2{
+	padding-bottom: 25px !important;
 }
 
 
@@ -370,13 +375,13 @@ canvas{
 	letter-spacing:.5em;
 	margin-bottom: 2%;
     text-transform: uppercase;
-	color:#9d9d9d;
+	color:#F4F4F4;
 }
 
 
 .form-notify h3
 {
-	font-size:0.35em;
+	font-size:0.44em;
 	font-weight:300;
 	display:block;	
 	letter-spacing:1.3em;
@@ -384,9 +389,41 @@ canvas{
     text-transform: uppercase;
 	color:#9d9d9d;
 	text-align: justify;
+	margin: 40px;
 	
 }
 
+
+.somos{
+	color: #EDEDED;
+}
+
+.mexico{
+	color: #9C9C9C;
+}
+
+.busca{
+	color: #DFDFDF;
+}
+
+.creativos{
+	color: #BBBBBB;
+}
+
+.visual{
+	color: #DFDFDF;
+}
+
+.puebla{
+	color: #F9F9F9;
+
+}
+
+.quieres{
+	color: #DFDFDF;
+	font-size: 1.2em;
+
+}
 
 
 .counter-logo {
@@ -407,6 +444,9 @@ canvas{
 	border: 0 none;
     border-radius: 0 !important;
     height: 3.5em;
+
+    font-family: 'Raleway', sans-serif;
+    color:#F9F9F9;
     
     background-color: #000;
 }
@@ -784,6 +824,7 @@ canvas{
 .swag {
     background: none repeat scroll 0 0 #2d2d2d;
     color: #000;
+    box-shadow: 1px 1px 30px #1B1B1B; 
 }
 
 .swag h1 {
@@ -1207,7 +1248,7 @@ a {
     white-space: nowrap;
 }
 .success #message {
-    color: #1bce7c;
+    color: #BBBBBB;
     font-size: 1.1em;
     margin-top: 10px;
 	text-transform:capitalize;
@@ -1216,9 +1257,12 @@ a {
 	
 .error #message{
 
-	color: #010002;
+	color: #BBBBBB;
 	font-size: 1.1em;
     margin-top: 10px;
+    font-weight: 100 !important;
+    font-family: 'Raleway', sans-serif;
+
 	text-transform:capitalize;
 
 	
