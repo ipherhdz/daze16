@@ -251,9 +251,23 @@ canvas{
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: -1;
+	z-index: 2;
 }
 
+.home-bg3 {
+	animation: 13s ease 5s normal none infinite back_animation;
+	background: url('../img/backgrounds/bg03.png') no-repeat center center;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
 
 #particles
 {	
